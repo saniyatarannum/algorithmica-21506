@@ -13,6 +13,14 @@ using namespace std;
     cout<<"zodiac sign is sagittarius";
  }
     }
+  else if(m=="january"){
+ if(d<=19){
+    cout<<"zodiac sign is capricon";
+ }
+ else{
+    cout<<"zodiac sign is aquaries";
+ }
+    }
   else if(m=="february"){
  if(d<=18){
     cout<<"zodiac sign is aquaries";
